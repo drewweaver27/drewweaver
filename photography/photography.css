@@ -1,0 +1,93 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 100vh;
+    background-image: url('./assets/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+ul{
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+li{
+    display: inline;
+    margin: 0px 50px 0px 50px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#logo{
+    display: block;
+    margin: -5% auto 0 auto;
+    size: 100vh;
+}
+
+#bio{
+    width: 75%;
+    margin: 5% auto 0 auto;
+}
+
+#tagline{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+}
+
+span{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+#learn-more{
+    margin: 20px 0 0 auto;
+    display: block;
+    color: white;
+    background-color: #b0300d;
+    border: 0;
+}
+
+#learn-more:hover{
+    background-color: #8f1e1a;
+}
+
+.img-portfolio{
+    display: block;
+    height: 630px;
+    width: 420px;
+}
+
+.home-col{
+    padding: 0;
+}
+.wedding-photo-left{
+    margin: 50px 0 0 auto;
+}
+
+.wedding-photo-center{
+    margin: 50px auto 0 auto;
+}
+
+.wedding-photo-right{
+    margin: 50px auto 0 0;
+}
+
+#brands h2{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 50px;
+}
+
