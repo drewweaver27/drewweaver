@@ -89,5 +89,13 @@ span{
 #brands h2{
     font-family: 'Oswald', sans-serif;
     padding-top: 50px;
+    text-align: center;
+    text-decoration: underline;
 }
+
+svg{
+    display: block;
+    margin: 0 auto;
+}
+
 
