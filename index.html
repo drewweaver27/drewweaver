@@ -7,8 +7,6 @@
     <title>Portfolio | Drew Weaver</title>
 
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/global.css">
 
     <!--Font Awesome-->
@@ -19,82 +17,160 @@
 </head>
 
 <body>
-    <header>
-        <div id="name">
-            <p>Drew Weaver</p>
-        </div>
-        <div id="social">
-            <ul id="social-list">
-                <li class="social-item">
-                    <a href="https://twitter.com/drew_the_weaver" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a href="https://www.linkedin.com/in/drewweaver27" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-item">
-                    <a href="https://github.com/drewpoo99" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div id="tagline">
-            <h1>Front-End Developer</h1>
-            <h4>Helping small businesses achieve a meaningful <br> online presence with exceptional user experience.
-            </h4>
-        </div>
-        <div id="arrow">
-            <p>View Portfolio</p>
-            <i class="fas fa-chevron-down"></i>
-        </div>
-    </header>
-    <main>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm img-parent">
-                    <div class="img-container">
-                        <a href="https://instymeds.com" target="_blank"><img src="assets/project-img/instymeds.png"></a>
-                    </div>
+    <section class="s1">
+		<div class="main-container">
+			<div class="greeting-wrapper">
+				<h1>Hi, I'm Drew Weaver</h1>
+			</div>
+
+
+			<div class="intro-wrapper">
+				<div class="nav-wrapper">
+
+					<!-- Link around dots-wrapper added after tutorial video -->
+						<div class="dots-wrapper">
+							<div id="dot-1" class="browser-dot"></div>
+							<div id="dot-2" class="browser-dot"></div>
+							<div id="dot-3" class="browser-dot"></div>
+						</div>
+				</div>
+
+				<div class="left-column">
+					<img id="profile_pic" src="./assets/profile_pic.jfif">
+				</div>
+
+				<div class="right-column">
+
+					<div id="preview-shadow">
+						<div id="preview">
+							<div id="corner-tl" class="corner"></div>
+							<div id="corner-tr" class="corner"></div>
+							<h3>Front-End Developer</h3>
+							<p>Helping small businesses achieve a meaningful online presence with exceptional user experience.</p>
+							<div id="corner-br" class="corner"></div>
+							<div id="corner-bl" class="corner"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <section id="about">
+        <div id="skills">
+            <div id="skills-section-heading">
+                <h2>My Skills</h2>
+                <p>Front-end focused full stack developer with interest in React + Node JS.</p>
+            </div>
+            <div id="skill-list-container">
+                <div class="skill-list">
+                    <img class="skill-icon" src="./assets/project-img/Group 1.png">          
+                    <h3 class="skill-header">MERN Stack</h3>
+                    <p>MongoDB, Express, React, Node</p>
                 </div>
-                <div class="col-sm img-parent">
-                    <div class="img-container">
-                        <a href="https://grgmarketplace.com" target="_blank"><img src="assets/project-img/grg.png"></a>
-                    </div>
+                <div class="skill-list">
+                    <img class="skill-icon" src="./assets/project-img/Group 3.png">          
+                    <h3 class="skill-header">CI/CD</h3>
+                    <p>Netlify, CircleCI, Heroku, Expo</p>
                 </div>
-                <div class="col-sm img-parent">
+                <div class="skill-list">       
+                    <img class="skill-icon" src="./assets/project-img/Group 2.png">             
+                    <h3 class="skill-header">Design</h3>     
+                    <p>Adobe XD, Photoshop, Illustrator</p>
+                </div>
+                <div class="skill-list">
+                    <img class="skill-icon" src="./assets/project-img/Group 4.png">          
+                    <h3 class="skill-header">WordPress</h3>     
+                    <p>WooCommerce, Elementor</p>
                 </div>
             </div>
         </div>
-    </main>
-    <section id="about">
-        <H2>About Me</H2>
         <div id="bio">
-            <p>I am a senior Computer and Information Science student at Messiah College. Since 2018, I have been
-                working as a freelance web developer to apply my skills to real world projects as well as to gain
-                meaningful insight into what it's like to work with a client to see their project through to completion.
-                In my freelance work, I have developed sites using the latest JavaScript technologies (I like the MERN
-                stack), as well as working with WordPress and PHP.</p>
+            <H2>About Me</H2>
+            <div id="bio-body">
+                <p>I am a senior Computer and Information Science student at Messiah College. 
+                    <br>
+                    <br>
+                    Since 2018, I have been working as a freelance web developer to apply my skills to real world projects as well as to gain
+                    meaningful insight into what it's like to work with a client to see their project through to completion.</p>
+            </div>
+            <div id="social">
+                <ul id="social-list">
+                    <li class="social-item">
+                        <a href="https://twitter.com/drew_the_weaver" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/drewweaver27" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://github.com/drewpoo99" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
+    <main>
+        <h2 id="project-header">Some Past Projects</h2>
+        <div class="container">  
+			<div class="card">
+				<div class="card-header">
+					<img src="./assets/project-img/instymeds.png" alt="rover" />
+				</div>
+				<div class="card-body">
+                    <div class="tag-container">
+                        <span class="tag tag-teal">WordPress</span>
+                    </div>
+					<h4>InstyMeds.com</h4>
+					<p>Redesigned medical dispensing company website.</p>
+					<div class="read-more">
+                        <!-- <a href="#">Read More</a> -->
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<img src="./assets/project-img/grg.png" alt="ballons" />
+				</div>
+				<div class="card-body">
+                    <div class="tag-container">
+                        <span class="tag tag-teal">WordPress</span>
+                    </div>
+					<h4>GRG Marketplace</h4>
+					<p>
+						Developed multi-commerce WordPress website for selling music content.
+					</p>
+                    <div class="read-more">
+                        <!-- <a href="#">Read More</a> -->
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<img src="./assets/project-img/Artolio.png" alt="city" />
+				</div>
+				<div class="card-body">
+                    <div class="tag-container">
+                        <span class="tag tag-purple">React</span>
+                        <span class="tag tag-pink">Node</span>
+                        <span class="tag tag-green">MongoDB</span>
+                    </div>
+					<h4>Artolio</h4>
+					<p>Developed a journaling database to make researching artists for inspiration easier.</p>
+                    <div class="read-more">
+                        <!-- <a href="#">Read More</a> -->
+					</div>
+				</div>
+			</div>
+		</div>
+    </main>
     <footer>
         <p>Made with ❤️ in Lancaster PA. &copy; 2020 - Drew Weaver
         </p>
     </footer>
-
-    <!--Bootstrap-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 </body>
-
 </html>
