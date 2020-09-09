@@ -52,4 +52,13 @@ body {
   font-size: 40px;
   text-decoration: none;
 }
+
+.bottom-nav .nav-list {
+  margin: 0 auto;
+  width: 220px;
+}
+
+.bottom-nav a {
+  margin: 5px;
+}
 /*# sourceMappingURL=space.css.map */
