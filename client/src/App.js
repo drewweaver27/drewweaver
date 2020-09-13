@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 import SocialBar from './components/SocialBar';
-import NavigationContainer from './components/NavigationContainer';
+// import NavigationContainer from './components/NavigationContainer';
 
 function App() {
   return (
