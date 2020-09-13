@@ -1,0 +1,117 @@
+body{
+  background-color: #171717;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+  text-align: center;
+  font-size: 1.5vw;
+  color: #F7F7ff;
+}
+
+.intro{
+  margin-top: 15vh;
+}
+
+.name{
+  color: #FFC857;
+}
+
+.socialList{
+  list-style: none;
+}
+
+.socialList li{
+  display: inline;
+  margin: 10px;
+  color: #FFC857;
+  font-size: 1.25em;
+}
+
+.socialList a{
+  color: #FFC857;
+}
+
+.buttonList{
+  list-style: none;
+}
+
+.buttonList li{
+  display: inline;
+  margin: 10px;
+
+}
+
+.buttonList a{
+  color: #F7F7ff;
+  text-decoration: none;
+  font-size: 0.85em;
+  border: solid 1px #F7F7ff;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+
+.buttonList a:hover{
+  color: #FFC857;
+  border: solid 1px #FFC857;
+}
+
+.projectArea{
+  display: flex;
+  flex-direction: row;
+  width: 45vw;
+  margin: 0 auto;
+}
+
+
+.cardBody{
+  height: 40vh;
+  width: 15vw;
+  background-color: #F7F7ff;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.cardTitle{
+  color: #171717;
+  font-size: 0.7em;
+}
+
+.cardDesc{
+  color: #171717;
+  font-size: 0.5em;
+}
+
+.cardButtons{
+  
+}
+
+.cardButtons a{
+  float: left;
+  font-size: 0.5em;
+  margin: 5px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .App{
+    font-size: 5vw;
+  }
+
+  .socialList{
+    margin-left: -50px;
+  }
+
+  .socialList a{
+    color: #FFC857;
+  }
+
+  .projectArea{
+    flex-direction: column;
+    width: 100%;
+  }
+  .cardBody{
+    width: 90vw;
+    height: 50vh;
+  }
+}
