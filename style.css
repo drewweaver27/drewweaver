@@ -3,6 +3,11 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+#projects-heading{
+  color: #36187A;
+  text-align: center;
+}
+
 #heading-cont{
   padding-top: 150px;
   height: 100vh;
