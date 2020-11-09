@@ -79,8 +79,13 @@ h1{
 
 .row{
   display: flex;
+  flex-direction: row;
   align-items: center;
   margin: 150px 20px 150px 20px;
+}
+
+.row:nth-child(even){
+  flex-direction: row-reverse;
 }
 
 .img-box{
@@ -109,6 +114,7 @@ h1{
   font-size: 0.6em;
   padding-left: 20px;
   margin-top: 15px;
+
 }
 
 .left p{
@@ -142,4 +148,96 @@ footer{
 
 footer ul{
   padding-left: 0px;
+}
+
+@media (max-width: 575.98px) {
+  body{
+    font-size: 5vw;
+  }
+
+  h1{
+    font-size: 1.2em;
+  }
+
+  h3{
+    font-size: 0.75em;
+  }
+
+  h4{
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+
+  h6{
+    font-size: 0.65em;
+  }
+
+  #landing-screen{
+    flex-direction: column;
+    margin-top: 100px;
+    height: 50vh;
+  }
+
+  #landing-text{
+    width: 100vw;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  br{
+    display: none;
+  }
+
+  #landing-img{
+    width: 100vw;
+    height: 25vh;
+    background-color: unset;
+  }
+
+  #landing-img img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .socialList ul{
+    padding-left: 0px;
+  }
+
+  .row{
+    flex-direction: column;
+  }
+
+  .row:nth-child(even){
+    flex-direction: column;
+  }
+
+  .img-box{
+    width: 75vw;
+  }
+
+  .text-box{
+    text-align: left;
+    margin-top: 15px;
+    width: 75vw;
+  }
+
+  .text-box h1, h4, h6{
+    padding-left: 0px;
+  }
+
+  .right p {
+    padding-left: 0px;
+  }
+
+  .left p {
+    padding-left: 0px;
+  }
+
+  .link-list{
+    padding-left: 0px;
+  }
+
+  .badge-box{
+    padding-left: 0px;
+  }
 }
