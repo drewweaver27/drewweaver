@@ -225,6 +225,10 @@ footer ul{
     padding-left: 0px;
   }
 
+  .text-box p{
+    font-size: 0.65em;
+  }
+
   .right p {
     padding-left: 0px;
   }
