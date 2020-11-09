@@ -189,14 +189,14 @@ footer ul{
   }
 
   #landing-img{
-    width: 100vw;
-    height: 25vh;
+    width: 400px;
+    height: 200px;
     background-color: unset;
   }
 
   #landing-img img{
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 300px;
+    min-height: 200px;
   }
 
   .socialList ul{
